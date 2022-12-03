@@ -1,5 +1,12 @@
 ﻿string[] arrayA = {"Hello!", "2", "World", ":-)"};
 
+Console.WriteLine("Массив до изменений: ");
+PrintArray(arrayA);
+Console.WriteLine();
+Console.WriteLine("Массив после изменений: ");
+PrintArray(GetArrayItemLengthMoreThanThree(arrayA));
+Console.WriteLine();
+
 string[] GetArrayItemLengthMoreThanThree(string[] array)
 {
     int count = 0;
